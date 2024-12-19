@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bottle Filling Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="game-title">Bottle Filling Game</h1>
+        </header>
+
+        <div class="controls">
+            <button class="start-btn" id="start-btn">Start Game</button>
+            <div id="level-info">Level: <span id="level">1</span></div>
+            <div id="score-info">Score: <span id="score">0</span></div>
+        </div>
+
+        <div class="game-container">
+            <div id="bottle-1" class="bottle" data-id="1"></div>
+            <div id="bottle-2" class="bottle" data-id="2"></div>
+            <div id="bottle-3" class="bottle" data-id="3"></div>
+            <div id="bottle-4" class="bottle" data-id="4"></div>
+        </div>
+
+        <footer>
+            <div class="adsense" id="adsense-space">Ad Space</div>
+        </footer>
+
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
