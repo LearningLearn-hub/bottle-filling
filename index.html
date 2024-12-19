@@ -9,6 +9,23 @@
 </head>
 <body>
     <div class="container">
+        
+        <!-- Ad Space (Placed above the game content) -->
+        <div class="adsense" id="adsense-space">
+            <!-- This is where the ad will be embedded -->
+            <script type="text/javascript">
+                atOptions = {
+                    'key' : '551531c64c36d1c3e9c9f01b90c1697b',
+                    'format' : 'iframe',
+                    'height' : 300,
+                    'width' : 160,
+                    'params' : {}
+                };
+            </script>
+            <script type="text/javascript" src="//www.highperformanceformat.com/551531c64c36d1c3e9c9f01b90c1697b/invoke.js"></script>
+        </div>
+
+        <!-- Game Title and Controls -->
         <header>
             <h1 id="game-title">Bottle Filling Game</h1>
         </header>
@@ -19,16 +36,13 @@
             <div id="score-info">Score: <span id="score">0</span></div>
         </div>
 
+        <!-- Game Area (Bottles) -->
         <div class="game-container">
             <div id="bottle-1" class="bottle" data-id="1"></div>
             <div id="bottle-2" class="bottle" data-id="2"></div>
             <div id="bottle-3" class="bottle" data-id="3"></div>
             <div id="bottle-4" class="bottle" data-id="4"></div>
         </div>
-
-        <footer>
-            <div class="adsense" id="adsense-space">Ad Space</div>
-        </footer>
 
     </div>
 
