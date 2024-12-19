@@ -1,0 +1,88 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.controls {
+    margin: 20px;
+}
+
+.start-btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.start-btn:hover {
+    background-color: #45a049;
+}
+
+#level-info, #score-info {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.game-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.bottle {
+    width: 100px;
+    height: 200px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #fff;
+    position: relative;
+    cursor: pointer;
+}
+
+.bottle-filled {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+.adsense {
+    background-color: #ccc;
+    height: 100px;
+    margin-top: 20px;
+    display: none;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .game-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
